@@ -140,7 +140,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Consume_HTML\ConsumeAPI.html" />
+    <Content Include="Consume_HTML_AJAX\Consume WebAPI_AJAX.html" />
+    <Content Include="Consume_HTML_AJAX\ConsumeAPI.html" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -199,6 +200,10 @@
     <ProjectReference Include="..\ProductWcfServiceLibrary\ProductWcfServiceLibrary.csproj">
       <Project>{7c47cf51-58ca-49a7-92a7-a2fd83b52238}</Project>
       <Name>ProductWcfServiceLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebAPI\WebAPI.csproj">
+      <Project>{bafd9103-e350-4d75-8c91-5d8d713ebe8c}</Project>
+      <Name>WebAPI</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
