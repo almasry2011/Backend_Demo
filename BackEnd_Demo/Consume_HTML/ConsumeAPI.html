@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <link href="../Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="../Scripts/bootstrap.min.js"></script>
+    <script src="../Scripts/jquery-3.3.1.js"></script>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+
+    <div class="container body-content">
+
+
+
+        <h2>Create</h2>
+
+
+        <form action="http://localhost:2061/api/products/" method="post">
+            <input name="__RequestVerificationToken" type="hidden" value="UpRWVbOze_z45K9OTBK8WpSwQFdGa2g6ASlnDG__Es997afRk40MheQG8YKzHqgPqA5KWA7MAZnV1GT5hJe1xmGVa2pnipXLJAAgPDTN7ew1">    <div class="form-horizontal">
+                <h4>Product</h4>
+                <hr>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="ProductName">ProductName</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" id="ProductName" name="ProductName" type="text" value="">
+                        <span class="field-validation-valid text-danger" data-valmsg-for="ProductName" data-valmsg-replace="true"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="SupplierID">SupplierID</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" data-val="true" data-val-number="The field SupplierID must be a number." id="SupplierID" name="SupplierID" type="number" value="">
+                        <span class="field-validation-valid text-danger" data-valmsg-for="SupplierID" data-valmsg-replace="true"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="CategoryID">CategoryID</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" data-val="true" data-val-number="The field CategoryID must be a number." id="CategoryID" name="CategoryID" type="number" value="">
+                        <span class="field-validation-valid text-danger" data-valmsg-for="CategoryID" data-valmsg-replace="true"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="QuantityPerUnit">QuantityPerUnit</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" id="QuantityPerUnit" name="QuantityPerUnit" type="text" value="">
+                        <span class="field-validation-valid text-danger" data-valmsg-for="QuantityPerUnit" data-valmsg-replace="true"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="UnitPrice">UnitPrice</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" data-val="true" data-val-number="The field UnitPrice must be a number." id="UnitPrice" name="UnitPrice" type="text" value="">
+                        <span class="field-validation-valid text-danger" data-valmsg-for="UnitPrice" data-valmsg-replace="true"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="UnitsInStock">UnitsInStock</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" data-val="true" data-val-number="The field UnitsInStock must be a number." id="UnitsInStock" name="UnitsInStock" type="text" value="">
+                        <span class="field-validation-valid text-danger" data-valmsg-for="UnitsInStock" data-valmsg-replace="true"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="UnitsOnOrder">UnitsOnOrder</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" data-val="true" data-val-number="The field UnitsOnOrder must be a number." id="UnitsOnOrder" name="UnitsOnOrder" type="text" value="">
+                        <span class="field-validation-valid text-danger" data-valmsg-for="UnitsOnOrder" data-valmsg-replace="true"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="ReorderLevel">ReorderLevel</label>
+                    <div class="col-md-10">
+                        <input class="form-control text-box single-line" data-val="true" data-val-number="The field ReorderLevel must be a number." id="ReorderLevel" name="ReorderLevel" type="text" value="">
+                        <span class="field-validation-valid text-danger" data-valmsg-for="ReorderLevel" data-valmsg-replace="true"></span>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="control-label col-md-2" for="Discontinued">Discontinued</label>
+                    <div class="col-md-10">
+                        <div class="checkbox">
+                            <input class="check-box" data-val="true" data-val-required="The Discontinued field is required." id="Discontinued" name="Discontinued" type="checkbox" value="true"><input name="Discontinued" type="hidden" value="false">
+                            <span class="field-validation-valid text-danger" data-valmsg-for="Discontinued" data-valmsg-replace="true"></span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Create" class="btn btn-default">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div>
+            <a href="/Products1">Back to List</a>
+        </div>
+
+
+        <hr>
+        <footer>
+            <p>© 2019 - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+
+
+
+</body>
+</html>
